@@ -26,10 +26,15 @@ jobs:
       run: npm run build
       working-directory: ReactBasic
 
+    - name: Install AWS CLI
+      run: |
+        curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+        unzip awscliv2.zip
+        sudo ./aws/install
+
     - name: Deploy to S3
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       run: |
-        npm install -g aws-cli
         aws s3 sync ReactBasic/build s3://site-estatico-it-talent --delete
