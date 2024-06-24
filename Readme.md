@@ -20,7 +20,7 @@ O SonarScanner CLI, baixei no windows e configurei o mesmo para realizar o scann
 ![alt text](activity.png)
 
 ## CI/CD com Github Actions e AWS
-O segundo desafio foi criação de um workflow do Github Actions que realizou o build de uma aplicação React e, em seguida, subiu o conteúdo desse build para um bucket S3 da AWS, vale ressaltar que o bucket tinha que estar configurado para ser acessível publicamente.
+O segundo desafio foi a criação de um workflow do Github Actions que realizou o build de uma aplicação React e, em seguida, subiu o conteúdo desse build para um bucket S3 da AWS, vale ressaltar que o bucket tinha que estar configurado para ser acessível publicamente.
 
 ### prints comprobatório
 ![alt text](s3.png)
