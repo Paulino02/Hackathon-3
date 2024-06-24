@@ -1,5 +1,4 @@
 # 3° Hackathon do curso DevOps - IT Talent
-
 O mesmo consistiu em dois desafios diferentes com tecnologias que tivemos contato durante o curso.
 
 ## Sonarqube
