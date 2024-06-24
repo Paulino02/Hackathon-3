@@ -2,7 +2,7 @@
 O mesmo consistiu em dois desafios diferentes com tecnologias que tivemos contato durante o curso.
 
 ## Sonarqube
-O primeiro desafio foi a analise de um projeto com o Sonarqube, rodei ele em um container, localmente, no docker.
+O primeiro desafio foi a análise de um projeto com o Sonarqube, rodei ele em um container, localmente, no docker.
 O SonarScanner CLI, baixei no windows e configurei o mesmo para realizar o scanneamento do projeto.
 
 ### Imagem docker utilizada
